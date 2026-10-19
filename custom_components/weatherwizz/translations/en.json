@@ -1,0 +1,47 @@
+{
+  "title": "WeatherWizz",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect WeatherWizz",
+        "description": "Create a Home Assistant key in your WeatherWizz account, then enter it here.",
+        "data": {
+          "api_url": "API address",
+          "api_key": "Home Assistant key"
+        },
+        "data_description": {
+          "api_url": "Use the API address displayed on the WeatherWizz Home Assistant page.",
+          "api_key": "The key is shown once when you create the connection."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnect WeatherWizz",
+        "description": "The existing key is no longer valid. Create a replacement key in WeatherWizz and enter it here.",
+        "data": {
+          "api_key": "New Home Assistant key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to WeatherWizz.",
+      "invalid_auth": "The Home Assistant key is invalid or has been revoked."
+    },
+    "abort": {
+      "already_configured": "This WeatherWizz account is already configured.",
+      "reauth_successful": "WeatherWizz was reconnected successfully."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "WeatherWizz options",
+        "data": {
+          "scan_interval": "Refresh interval in seconds"
+        },
+        "data_description": {
+          "scan_interval": "How often Home Assistant requests new station readings."
+        }
+      }
+    }
+  }
+}

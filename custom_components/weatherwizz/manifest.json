@@ -1,0 +1,12 @@
+{
+  "domain": "weatherwizz",
+  "name": "WeatherWizz",
+  "version": "2026.10.19",
+  "documentation": "https://station.weatherwizz.com/account",
+  "issue_tracker": "https://www.weatherwizz.com/contact/",
+  "codeowners": ["@Weather-Wizz"],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}
