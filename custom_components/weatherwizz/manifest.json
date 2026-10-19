@@ -1,7 +1,7 @@
 {
   "domain": "weatherwizz",
   "name": "WeatherWizz",
-  "version": "2026.10.19",
+  "version": "2026.10.19.1",
   "documentation": "https://station.weatherwizz.com/account",
   "issue_tracker": "https://www.weatherwizz.com/contact/",
   "codeowners": ["@Weather-Wizz"],
